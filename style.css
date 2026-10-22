@@ -476,15 +476,22 @@ section {
 }
 
 .top-img {
-    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%; /* Controlled dynamically by JS drag logic */
     overflow: hidden;
     border-right: 2px solid var(--surface-white);
     z-index: 2;
 }
 
 .top-img img {
-    width: 900px;
-    max-width: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Matches viewport width to prevent image squishing */
+    max-width: 900px; /* Restores container max bound on desktop */
     height: 100%;
     object-fit: cover;
 }
