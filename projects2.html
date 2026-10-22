@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects & Archives — NIDHHI TAPADIAA</title>
+    <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body id="top" class="projects-page-body">
+
+    <!-- CUSTOM CURSOR -->
+    <div class="custom-cursor" id="cursor"></div>
+    <div class="custom-cursor-follower" id="cursorFollower"></div>
+
+    <!-- NAVIGATION -->
+    <header class="site-header scrolled" id="header">
+        <div class="nav-container">
+            <a href="index.html" class="brand-logo">Nidhhi <span class="highlight-text">Tapadiaa</span></a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link active-page">Projects</a>
+                <a href="index.html#portfolio" class="nav-link">Portfolio</a>
+                <a href="index.html#filmography" class="nav-link">Filmography</a>
+                <a href="index.html#editorial" class="nav-link">Instagram</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="https://www.instagram.com/nidhhitapadiaa/" target="_blank" rel="noopener" class="social-icon-btn magnetic-element" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="projects-page-main">
+        <!-- PAGE HERO -->
+        <section class="projects-hero-section" style="padding-top: 180px; padding-bottom: 60px;">
+            <div class="container">
+                <div class="section-center gsap-reveal-up" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                    <span class="section-tag">Comprehensive Portfolio</span>
+                    <h1 class="section-title">Projects & <span class="highlight-text italic">Productions Archive</span></h1>
+                    <p class="section-desc" style="margin-top: 20px;">
+                        Explore Nidhhi Tapadiaa's distinguished body of work across chart-topping music videos, feature cinema, national brand endorsements, fitness campaigns, and press archives.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 1: FEATURED IN SONGS -->
+        <section class="projects-category-section" style="background-color: var(--surface-white); border-top: 1px solid var(--border-soft); padding: 100px 0;">
+            <div class="container">
+                <div class="section-header gsap-reveal-up">
+                    <div>
+                        <span class="section-tag">Music & Video Leads</span>
+                        <h2 class="section-title">Featured in Songs</h2>
+                    </div>
+                    <p class="editorial-header-desc">Multi-million viewed Punjabi hit singles featuring iconic performances and high-fashion styling.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card gsap-project-item" onclick="openLightbox('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=1400', 'Jatta Koka - Official Music Video Lead')">
+                        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=900" alt="Jatta Koka">
+                        <div class="project-info">
+                            <span class="project-category">25M+ Views • 2024</span>
+                            <h3>Jatta Koka</h3>
+                            <p>Lead starring role in this chart-topping Punjabi hit single filmed across scenic backdrops.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card gsap-project-item" onclick="openLightbox('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&q=80&w=1400', 'Sone Di Dabbi - Music Video Lead')">
+                        <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&q=80&w=900" alt="Sone Di Dabbi">
+                        <div class="project-info">
+                            <span class="project-category">18M+ Views • 2023</span>
+                            <h3>Sone Di Dabbi</h3>
+                            <p>Dynamic lead performance showcasing vibrant choreography and high-fashion aesthetics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: MOVIES & CINEMA -->
+        <section class="projects-category-section" style="background-color: var(--bg-ivory); border-top: 1px solid var(--border-soft); padding: 100px 0;">
+            <div class="container">
+                <div class="section-header gsap-reveal-up">
+                    <div>
+                        <span class="section-tag">On-Screen Acting</span>
+                        <h2 class="section-title">Movies & Cinema</h2>
+                    </div>
+                    <p class="editorial-header-desc">Critical acclaim and leading performances in major cinematic feature releases and television series.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card gsap-project-item" onclick="openLightbox('https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&q=80&w=1400', 'Feature Film Lead Role')">
+                        <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&q=80&w=900" alt="Feature Film">
+                        <div class="project-info">
+                            <span class="project-category">Feature Cinema</span>
+                            <h3>Cinematic Lead Role</h3>
+                            <p>Engaging character portrayal and dramatic depth in premier film releases.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card gsap-project-item" onclick="openLightbox('https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80&w=1400', 'CID Episodic Lead - Sony TV')">
+                        <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80&w=900" alt="Sony TV CID">
+                        <div class="project-info">
+                            <span class="project-category">Sony TV Broadcast</span>
+                            <h3>CID & Fiction Series Lead</h3>
+                            <p>Memorable episodic guest lead roles across top national television broadcasts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: COMMERCIALS & TVCs -->
+        <section class="projects-category-section" style="background-color: var(--surface-white); border-top: 1px solid var(--border-soft); padding: 100px 0;">
+            <div class="container">
+                <div class="section-header gsap-reveal-up">
+                    <div>
+                        <span class="section-tag">Brand Endorsements</span>
+                        <h2 class="section-title">Commercials & TVCs</h2>
+                    </div>
+                    <p class="editorial-header-desc">Serving as the principal face and ambassador for top-tier national lifestyle and consumer brands.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card gsap-project-item" onclick="openLightbox('https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=1400', 'National TV Commercial Campaign')">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=900" alt="Commercial Campaign">
+                        <div class="project-info">
+                            <span class="project-category">Pan-India Campaign</span>
+                            <h3>National TV Commercial</h3>
+                            <p>Lead face for high-end consumer lifestyle and luxury brand television commercials.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: GYM & FITNESS -->
+        <section class="projects-category-section" style="background-color: var(--bg-ivory); border-top: 1px solid var(--border-soft); padding: 100px 0;">
+            <div class="container">
+                <div class="section-header gsap-reveal-up">
+                    <div>
+                        <span class="section-tag">Athletic & Wellness</span>
+                        <h2 class="section-title">Gym & Fitness</h2>
+                    </div>
+                    <p class="editorial-header-desc">High-energy activewear shoots and fitness brand collaborations emphasizing power and endurance.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card gsap-project-item" onclick="openLightbox('https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&q=80&w=1400', 'Fitness & Activewear Campaign')">
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&q=80&w=900" alt="Fitness Shoot">
+                        <div class="project-info">
+                            <span class="project-category">Activewear & Wellness</span>
+                            <h3>Athletic Wear Campaign</h3>
+                            <p>Dynamic fitness visuals celebrating strength, vitality, and active living.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: HOARDINGS & PRESS -->
+        <section class="projects-category-section" style="background-color: var(--surface-white); border-top: 1px solid var(--border-soft); padding: 100px 0;">
+            <div class="container">
+                <div class="section-header gsap-reveal-up">
+                    <div>
+                        <span class="section-tag">Outdoor Advertising</span>
+                        <h2 class="section-title">Hoardings & Press</h2>
+                    </div>
+                    <p class="editorial-header-desc">Prime city-wide outdoor advertising billboards and prominent newspaper features.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card gsap-project-item" onclick="openLightbox('https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&q=80&w=1400', 'Billboard Hoarding & Press Feature')">
+                        <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&q=80&w=900" alt="Hoardings">
+                        <div class="project-info">
+                            <span class="project-category">Outdoor Media</span>
+                            <h3>City-Wide Billboards</h3>
+                            <p>Prime outdoor advertising hoardings across Mumbai & Chandigarh.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: TRAVELLING & JOURNALS -->
+        <section class="projects-category-section" style="background-color: var(--bg-ivory); border-top: 1px solid var(--border-soft); padding: 100px 0;">
+            <div class="container">
+                <div class="section-header gsap-reveal-up">
+                    <div>
+                        <span class="section-tag">Destination Diaries</span>
+                        <h2 class="section-title">Travelling</h2>
+                    </div>
+                    <p class="editorial-header-desc">Curated luxury travel series capturing high-fashion aesthetics across international destinations.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card gsap-project-item" onclick="openLightbox('https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&q=80&w=1400', 'Global Travel & Destination Diary')">
+                        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&q=80&w=900" alt="Travelling">
+                        <div class="project-info">
+                            <span class="project-category">Destination Series</span>
+                            <h3>Luxury Travel Journals</h3>
+                            <p>Capturing exquisite style against global architectural backdrops.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 7: MAGAZINE COVERS -->
+        <section class="projects-category-section" style="background-color: var(--surface-white); border-top: 1px solid var(--border-soft); padding: 100px 0;">
+            <div class="container">
+                <div class="section-header gsap-reveal-up">
+                    <div>
+                        <span class="section-tag">Editorial Spreads</span>
+                        <h2 class="section-title">Magazines & Covers</h2>
+                    </div>
+                    <p class="editorial-header-desc">Exclusive magazine covers and fashion publication spreads celebrating avant-garde style.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card gsap-project-item" onclick="openLightbox('https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=1400', 'Vogue & Harper’s Bazaar Cover Feature')">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=900" alt="Magazines">
+                        <div class="project-info">
+                            <span class="project-category">Publication Covers</span>
+                            <h3>Vogue & Editorial Spreads</h3>
+                            <p>Trendsetting high-fashion covers and luxury publication features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div>
+                <p class="footer-logo">NIDHHI TAPADIAA</p>
+                <p class="footer-copy">© 2026 All Rights Reserved. Official Portfolio Archive.</p>
+            </div>
+            <div class="footer-nav">
+                <a href="https://www.instagram.com/nidhhitapadiaa/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="projects.html">Projects</a>
+                <a href="index.html#portfolio">Portfolio</a>
+                <a href="contact.html">Management</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- LIGHTBOX MODAL -->
+    <div class="modal" id="lightboxModal">
+        <button class="modal-close" onclick="closeLightbox()">&times;</button>
+        <div class="modal-content-wrap">
+            <img id="lightboxImg" src="" alt="Enlarged view">
+            <p id="lightboxCaption" class="modal-caption"></p>
+        </div>
+    </div>
+
+    <!-- GSAP LIBRARIES -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script2.js" defer></script>
+</body>
+</html>
