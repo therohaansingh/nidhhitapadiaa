@@ -486,6 +486,13 @@ section {
     z-index: 2;
 }
 
+.base-img {
+    border-left: 2px solid var(--surface-white);
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+}
+
 .top-img img {
     position: absolute;
     top: 0;
@@ -495,6 +502,9 @@ section {
     height: 100%;
     object-fit: cover;
 }
+
+
+
 
 .img-badge {
     position: absolute;
